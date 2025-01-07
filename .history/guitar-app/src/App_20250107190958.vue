@@ -105,7 +105,7 @@ onMounted(() => {
     <h2 class="text-center">Nuestra Colección</h2>
 
     <div class="row mt-5">
-      <guitar v-for="(guitar, index) in guitars" :guitar="guitar" :index="index" :key="guitar.id" />
+      <guitar  v-for="(guitar, index) in guitars" :guitar="guitar" :index="index" :key="guitar.id" />
     </div>
   </main>
 

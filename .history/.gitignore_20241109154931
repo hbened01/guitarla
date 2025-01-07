@@ -1,0 +1,37 @@
+# Node modules
+guitar-app/node_modules/
+
+# Logs
+guitar-app/logs
+guitar-app/*.log
+guitar-app/npm-debug.log*
+guitar-app/yarn-debug.log*
+guitar-app/yarn-error.log*
+
+# OS-specific files
+guitar-app/.DS_Store
+Thumbs.db
+
+# Environment variables
+guitar-app/.env
+guitar-app/.env.local
+guitar-app/.env.*.local
+
+# Build and output directories
+guitar-app/dist/
+guitar-app/build/
+guitar-app/.cache/
+
+# IDE and ºeditor settings
+guitar-app/.vscode/
+guitar-app/.idea/
+
+# Test coverage reports
+guitar-app/coverage/
+
+# Temporary files
+guitar-app/*.tmp
+guitar-app/*.swp
+
+# Git-specific
+guitar-app/.gitignore
